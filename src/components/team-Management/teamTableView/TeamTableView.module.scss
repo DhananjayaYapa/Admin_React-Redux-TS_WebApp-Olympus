@@ -1,0 +1,21 @@
+.enabled {
+  padding: 0px 5px;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 255, 0, 0.5);
+  background: rgba(0, 255, 0, 0.3);
+}
+
+.disabled {
+  padding: 0px 4px;
+  font-size: 12px;
+  background: rgba(255, 0, 0, 0.3);
+  border: 1px solid rgba(255, 0, 0, 0.5);
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.team-row {
+  cursor: pointer;
+}
