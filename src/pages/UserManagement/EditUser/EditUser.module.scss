@@ -1,0 +1,25 @@
+@use '../../../assets/theme/constants.scss' as *;
+
+.tabStyle {
+  font-weight: normal !important;
+  min-width: 160px !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+  text-align: left !important;
+  align-items: flex-start !important;
+  border-bottom: 1px solid #000000 !important;
+  color: black !important;
+}
+
+.tabStyle:global(.Mui-selected) {
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.appTabStyles {
+  font-weight: bold !important;
+  min-width: 160px !important;
+  font-size: 16px !important;
+  text-transform: none !important;
+  border-bottom: 1px solid #000000 !important;
+}

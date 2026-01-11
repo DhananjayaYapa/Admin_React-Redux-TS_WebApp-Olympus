@@ -1,0 +1,18 @@
+export const APP_ROUTES = {
+  ROOT: '/',
+  USERS: '/users',
+  SBU: '/sbu',
+  CLIENTS: '/clients',
+  TEAMS: '/teams',
+  BANNERS: '/banners',
+  RESIGNATIONS: '/resignations',
+  ABSENTEEISM_REPORT: '/absenteeism-report',
+  ATTENDANCE_REPORT: '/attendance-report',
+  LEAVE_MANAGEMENT: '/leave-management',
+  LEAVE_CONFIGURATION: '/leave-configuration',
+  BADGE: '/badge',
+  FLYER: '/flyer',
+  ROLE_MANAGEMENT: '/configuration/role-management',
+  EDIT_USER: '/users/:username/userEdit',
+  BADGE_ASSIGNMENT: '/assign-badge',
+}
